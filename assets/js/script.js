@@ -9,46 +9,46 @@ const quizQuestions = [
     },
     correct: "3"
   },
-  // {
-  //   question: "Question 2: ",
-  //   answers: {
-  //     1: "correct answer",
-  //     2: "wrong answer",
-  //     3: "wrong answer",
-  //     4: "wrong answer",
-  //   },
-  //   correct: "1"
-  // },
-  // {
-  //   question: "Question 3: ",
-  //   answers: {
-  //     1: "wrong answer",
-  //     2: "correct answer",
-  //     3: "wrong answer",
-  //     4: "wrong answer",
-  //   },
-  //   correct: "2"
-  // },
-  // {
-  //   question: "Question 4: ",
-  //   answers: {
-  //     1: "wrong answer",
-  //     2: "wrong answer",
-  //     3: "wrong answer",
-  //     4: "correct answer",
-  //   },
-  //   correct: "4"
-  // },
-  // {
-  //   question: "Question 5: ",
-  //   answers: {
-  //     1: "correct answer",
-  //     2: "wrong answer",
-  //     3: "wrong answer",
-  //     4: "wrong answer",
-  //   },
-  //   correct: "1"
-  // },
+  {
+    question: "Question 2: ",
+    answers: {
+      1: "correct answer",
+      2: "wrong answer",
+      3: "wrong answer",
+      4: "wrong answer",
+    },
+    correct: "1"
+  },
+  {
+    question: "Question 3: ",
+    answers: {
+      1: "wrong answer",
+      2: "correct answer",
+      3: "wrong answer",
+      4: "wrong answer",
+    },
+    correct: "2"
+  },
+  {
+    question: "Question 4: ",
+    answers: {
+      1: "wrong answer",
+      2: "wrong answer",
+      3: "wrong answer",
+      4: "correct answer",
+    },
+    correct: "4"
+  },
+  {
+    question: "Question 5: ",
+    answers: {
+      1: "correct answer",
+      2: "wrong answer",
+      3: "wrong answer",
+      4: "wrong answer",
+    },
+    correct: "1"
+  },
 ]
 
 var initialPage = document.querySelector("#initial-page");
