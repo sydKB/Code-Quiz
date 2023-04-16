@@ -57,7 +57,7 @@ var donePage = document.querySelector("#done-page");
 var scorePage = document.querySelector("#highscores");
 
 var startButton = document.querySelector("#start-button");
-var backButton = document.querySelector("#go-back");
+var backButton = document.querySelector("#back-button");
 var submitButton = document.querySelector("#submit-button");
 var clearButton = document.querySelector("#clear-button");
 
