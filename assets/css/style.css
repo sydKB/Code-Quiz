@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: lightslategray;
+    color: white;
+}
+
+h1 { /*"View Highscores*/
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+h2 { /*"Time"*/
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+#highscores:focus {
+    display: block;
+}
+
+#initial-page.hide {
+    display: none;
+}
+
+#question-page, #done, #highscores {
+    display: none;
+}
+
+#question-page.show, #done.show, #highscores.show {
+    display: block;
+}
+
+
+
+section {
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+section h2 { /* section title styling */
+    font-size: 26px;
+    color: navy;
+}
+
+#start-button {
+    color: white;
+    background-color: lightslategray;
+    font-size: 32px;
+    margin: 20px;
+    padding: 0px 10px;
+}
+
+#submit-button {
+
+}
