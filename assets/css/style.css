@@ -16,44 +16,63 @@ nav {
 }
 
 h1 { /*"View Highscores*/
-    font-size: 18px;
+    font-size: 22px;
     margin-left: 20px;
 }
 
 h2 { /*"Time"*/
-    font-size: 18px;
+    font-size: 22px;
     margin-right: 20px;
 }
 
-#highscores:focus {
-    display: block;
+p {
+    font-size: 16px;
 }
 
-#initial-page.hide {
+li{
+    background-color: lightslategray;
+    color: black; 
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: left;
+}
+#initial-page {
+    display: block;
+}
+#done-page {
     display: none;
 }
+
+#question-page { /*question and answer styling*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* #highscores:focus {
+    display: block;
+} */
 
 #question-page, #done, #highscores {
     display: none;
 }
 
-#question-page.show, #done.show, #highscores.show {
-    display: block;
-}
-
-
-
-section {
+section { /* initial page, question page, done page, highscore styling */
     padding: 50px;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-} 
+    text-align: center;
+    width: 60%;
+}
 
 section h2 { /* section title styling */
     font-size: 26px;
     color: navy;
+    align-items: center;
 }
 
 #start-button {
@@ -62,8 +81,5 @@ section h2 { /* section title styling */
     font-size: 32px;
     margin: 20px;
     padding: 0px 10px;
-}
-
-#submit-button {
-
+    border-radius: 5px;
 }
