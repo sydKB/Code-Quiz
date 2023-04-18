@@ -50,14 +50,17 @@ li:hover {
 }
 
 #initial-page {
+    margin: auto;
     display: block;
 }
 #done-page {
+    margin: auto;
     display: none;
 }
 
 #question-page { /*question and answer styling*/
-    display: flex;
+    margin: auto;
+    display: block;
     flex-direction: column;
     align-items: center;
 }
@@ -67,6 +70,7 @@ li:hover {
 } */
 
 #question-page, #done, #highscores {
+    margin: auto;
     display: none;
 }
 
