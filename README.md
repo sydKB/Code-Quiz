@@ -1,6 +1,6 @@
 # 04 Web APIs: Code Quiz
 ## Completed Application
-### https://github.com/sydKB/HW-04-Code-Quiz
+### https://sydkb.github.io/Code-Quiz/
 ![deployed example output](assets/my-deployed-site.jpg)
 
 ## Your Task
